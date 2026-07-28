@@ -1,6 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: </h3>
-<h3>Register Number:     </h3>
+<h3>Name: Abinaya P </h3>
+<h3>Register Number: 212225230003 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -54,7 +54,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 
-## Program:
+## Program :
 ```
 from collections import deque
 from collections import defaultdict
@@ -105,7 +105,6 @@ D F <BR>
 G F <BR>
 F H <BR>
 <hr>
-
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
@@ -122,16 +121,15 @@ F H <BR>
 2 3 <BR>
 2 4 <BR>
 <hr>
-
-
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
 
+## Execution :
+
+<img width="637" height="535" alt="image" src="https://github.com/user-attachments/assets/fe67702a-2884-438d-84d5-63f224448bf8" />
 
 
-## Execution:
-<img width="706" height="556" alt="image" src="https://github.com/user-attachments/assets/638d890a-3d36-4fa1-ba72-e616f381d436" />
 
 <hr>
 <h3>Result:</h3>
