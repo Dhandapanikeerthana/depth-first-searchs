@@ -13,24 +13,30 @@ Depth-first search is an algorithm for traversing or searching trees or graph da
 
 
 Queue and visited arrays are empty initially.
+
 Stack and visited arrays are empty initially.
 
 ## Step 2: Visit 0 and put its adjacent nodes which are not visited yet into the stack.
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/86dcf7d9-1f9d-49b0-a821-5976a6e77606)
 
  Visit node 0 and put its adjacent nodes (1, 2, 3) into the stack
+ 
  Visit node 0 and put its adjacent nodes (1, 2, 3) into the stack
 
 ### Step 3: Now, Node 1 at the top of the stack, so visit node 1 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
+
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/e6017942-08b1-4742-87ad-c97eb97bf985)
 
  Visit node 1
+ 
  Visit node 1
 
 ## Step 4: Now, Node 2 at the top of the stack, so visit node 2 and pop it from the stack and put all of its adjacent nodes which are not visited (i.e, 3, 4) in the stack.
+
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/6e6d123c-60ae-4f9c-a27c-c4fc7e57d57c)
 
  Visit node 2 and put its unvisited adjacent nodes (3, 4) into the stack
+ 
  Visit node 2 and put its unvisited adjacent nodes (3, 4) into the stack
 
 ## Step 5: Now, Node 4 at the top of the stack, so visit node 4 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
@@ -40,9 +46,11 @@ Stack and visited arrays are empty initially.
  Visit node 4
 
 ## Step 6: Now, Node 3 at the top of the stack, so visit node 3 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
+
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/3b88f04a-7846-4f75-89b4-22bbd5b48e52)
 
 Visit node 3
+
 Visit node 3
 
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
@@ -127,9 +135,11 @@ F H <BR>
 <hr>
 ['0', '1', '2', '3', '4']
 
-## Execution :
+## Output :
 
-<img width="637" height="535" alt="image" src="https://github.com/user-attachments/assets/fe67702a-2884-438d-84d5-63f224448bf8" />
+<img width="787" height="578" alt="image" src="https://github.com/user-attachments/assets/d7161f5d-3cb5-4479-adb7-163a822d6782" />
+
+<img width="618" height="487" alt="image" src="https://github.com/user-attachments/assets/882fa324-478c-4511-b14f-d3054ca7bb92" />
 
 
 
